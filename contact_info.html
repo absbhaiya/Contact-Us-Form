@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact_style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Lets get in touch</h3>
+          <p class="text">
+            Everyday 4 million people establishes new contact around the world.
+            Why dont we add the next one in the count!!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img
+                src="contact_images/location-dot-solid (1).png"
+                class="icon"
+                alt=""
+              />
+              <p>Aftabuddin Road, Bashundhara, IUB</p>
+            </div>
+
+            <div class="information">
+              <img
+                src="contact_images/envelope-regular.png"
+                class="icon"
+                alt=""
+              />
+              <p>1811196@iub.edu.bd</p>
+            </div>
+
+            <div class="information">
+              <img
+                src="contact_images/phone-volume-solid.png"
+                class="icon"
+                alt=""
+              />
+              <p>01534270937</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/abs.bhaiya">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a href="https://www.instagram.com/abs.bhaiya/">
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/m-asif-bin-saif-9a846418a/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form method="POST" action="contact_info.php">
+            <h3 class="title">Contact Us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Name</label>
+              <span>Username</span>
+            </div>
+
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message </span>
+            </div>
+
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="contact_app.js"></script>
+  </body>
+</html>
